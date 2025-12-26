@@ -54,6 +54,15 @@ import cafeImg16 from "./BohemianCafe.jpg";
 
 import testimonial1 from "./testimonial-1.jpeg";
 import testimonial2 from "./testimonial-2.jpeg";
+import airConditioned from "./air-conditioner 1.svg";
+import cleanWashrooms from "./toilet 1.svg";
+import wifi from "./wifi 1.svg";
+import dog from "./dog 1.svg";
+import work_friendly from './Work-Friendly 1.svg';
+import live_music from "./live-music 1.svg";
+import outdoor_seating from "./seating-area 1.svg";
+import indoor_seating from "./dinning 1.svg";
+import cash_payments from "./wallet 1.svg";
 
 export const assets = {
   logo1,
@@ -73,7 +82,7 @@ export const assets = {
   freeWifiIcon,
   freeBreakfastIcon,
   roomServiceIcon,
-
+  airConditioned,
   closeIcon,
   homeIcon,
   locationFilledIcon,
@@ -82,13 +91,21 @@ export const assets = {
   menuIcon,
   closeMenu,
   guestsIcon,
-
+  cleanWashrooms,
   addIcon,
   dashboardIcon,
   listIcon,
   uploadArea,
   totalBookingIcon,
   totalRevenueIcon,
+
+  wifi,
+  dog,
+  work_friendly,
+  live_music,
+  outdoor_seating,
+  indoor_seating,
+  cash_payments,
 
   cafeImg1,
   cafeImg2,
@@ -162,11 +179,15 @@ export const testimonials = [
 
 // Facility Icon
 export const facilityIcons = {
-  "Free WiFi": assets.freeWifiIcon,
-  "Free Breakfast": assets.freeBreakfastIcon,
-  "Room Service": assets.roomServiceIcon,
-  "Mountain View": assets.mountainIcon,
-  "Pool Access": assets.poolIcon,
+  "Free Wi-Fi": assets.wifi,
+  "Air-Conditioned" : assets.airConditioned , 
+  "Clean Washrooms" : assets.cleanWashrooms,
+  "Pet Friendly" : assets.dog,
+  "Work Friendly" : assets.work_friendly,
+  "Live Music" : assets.live_music,
+  "Outdoor Seating" : assets.outdoor_seating,
+  "Indoor Seating" : assets.indoor_seating,
+  "Cash Payments" : assets.cash_payments,
 };
 
 // // For Room Details Page
@@ -232,8 +253,6 @@ export const cafesDD = [
     "amenities": [
       "Free Wi-Fi",
       "Air-Conditioned",
-      "Comfortable Seating",
-      "Charging Points",
       "Clean Washrooms",
     ],
     "images": [cafeImg1, cafeImg2, cafeImg3, cafeImg4],
@@ -250,9 +269,9 @@ export const cafesDD = [
     "amenities": [
       "Free Wi-Fi",
       "Air-Conditioned",
-      "Power Outlets",
+      
       "Work Friendly",
-      "UPI Payments",
+      
     ],
     "images": [cafeImg5, cafeImg6, cafeImg7, cafeImg8],
     "isAvailable": true,
@@ -266,9 +285,7 @@ export const cafesDD = [
   "cafeTheme": "Vintage",
   "costPerPerson": 179,
   "amenities": [
-    "Comfortable Seating",
-    "Quiet Ambience",
-    "Indoor Seating",
+    "Outdoor Seating",
     "Cash Payments",
     "Clean Washrooms"
   ],
@@ -284,11 +301,11 @@ export const cafesDD = [
   "cafeTheme": "Bohemian",
   "costPerPerson": 299,
   "amenities": [
-    "Outdoor Seating",
+    "Indoor Seating",
     "Pet Friendly",
-    "Instagrammable Ambience",
+    
     "Live Music",
-    "Table Reservation"
+    
   ],
   "images": [cafeImg13, cafeImg14, cafeImg15, cafeImg16],
   "isAvailable": false,
