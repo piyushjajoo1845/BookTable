@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
         <footer className='px-6 md:px-16 lg:px-24 xl:px-2 w-full'>
-            <div className='flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-gray-500/30'>
+            <div className='flex flex-col md:flex-row items-start justify-center gap-10 py-10 bg-slate-400/5 border-b border-gray-500/30'>
                 <div className='max-w-96'>
                     <img src={assets.logo1} alt="logo-footer" />
                     <p className='mt-6 text-sm text-gray-500 font-playfair font-bold'>
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
 
             <p className='py-4 text-center text-xs md:text-sm text-gray-500'>
-                Copyright 2025 © 
+                Copyright {new Date().getFullYear()} © 
                 <a> 
                     BookTable
                 </a>

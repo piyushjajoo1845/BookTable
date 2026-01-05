@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 const HotelCard = ({ cafe, index }) => {
   return (
     <Link
-      to={"/cafes/" + cafe._id}
+      to={"/cafe/" + cafe._id}
       onClick={() => scrollTo(0, 0)}
       key={cafe._id}
     >

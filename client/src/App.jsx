@@ -4,6 +4,9 @@ import Navbar from './components/Navbar'
 import {Route, Routes, useLocation} from 'react-router-dom'
 import Home from './pages/Home';
 import AllCafes from './pages/AllCafes';
+import SelectedCafedetail from './pages/SelectedCafedetail';
+import Footer from './components/footer';
+import MyBookings from './pages/MyBookings ';
 
 const App = () => {
 
@@ -16,8 +19,13 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/cafe' element={<AllCafes/>}/>
+          <Route path='/cafe/:id' element={<SelectedCafedetail/>}/>
+          <Route path='/my-bookings' element={<MyBookings/>}/>
         </Routes>
+
+
       </div>
+      <Footer/>
     </div>
   )
 }

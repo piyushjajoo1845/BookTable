@@ -90,7 +90,7 @@ const Navbar = () => {
           {user ? 
           (<UserButton>
             <UserButton.MenuItems>
-              <UserButton.Action label="My Bookings" labelIcon={<BookIcon/>} onClick={()=> alert('bookings')}/>
+              <UserButton.Action label="My Bookings" labelIcon={<BookIcon/>} onClick={()=> navigate('/my-bookings')}/>
             </UserButton.MenuItems>
           </UserButton>)
           :
@@ -111,7 +111,7 @@ const Navbar = () => {
       <div className="flex items-center gap-3 md:hidden">
           {user && <UserButton>
             <UserButton.MenuItems>
-              <UserButton.Action label="My Bookings" labelIcon={<BookIcon/>} onClick={()=> alert('bookings')}/>
+              <UserButton.Action label="My Bookings" labelIcon={<BookIcon/>} onClick={()=> navigate('/my-bookings')}/>
             </UserButton.MenuItems>
           </UserButton>}
         <img onClick={()=> setIsMenuOpen(!isMenuOpen)} src={assets.menuIcon} alt="mobile-menu" className={`${isScrolled && 'invert'} h-4 `}/>

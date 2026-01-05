@@ -38,19 +38,19 @@ import cafeImg3 from "./natureCafe3.jpg";
 import cafeImg4 from "./natureCafe4.jpg";
 
 import cafeImg5 from "./modernCafe.jpg";
-import cafeImg6 from "./modernCafe.jpg";
-import cafeImg7 from "./modernCafe.jpg";
-import cafeImg8 from "./modernCafe.jpg";
+import cafeImg6 from "./ModernCafe2.jpg";
+import cafeImg7 from "./ModernCafe3.jpg";
+import cafeImg8 from "./ModernCafe4.jpg";
 
 import cafeImg9 from "./vintageCafe.jpg";
-import cafeImg10 from "./vintageCafe.jpg";
-import cafeImg11 from "./vintageCafe.jpg";
-import cafeImg12 from "./vintageCafe.jpg";
+import cafeImg10 from "./vintageCafe2.jpg";
+import cafeImg11 from "./vintageCafe3.jpg";
+import cafeImg12 from "./vintageCafe4.jpg";
 
 import cafeImg13 from "./BohemianCafe.jpg";
-import cafeImg14 from "./BohemianCafe.jpg";
-import cafeImg15 from "./BohemianCafe.jpg";
-import cafeImg16 from "./BohemianCafe.jpg";
+import cafeImg14 from "./BohemianCafe2.jpg";
+import cafeImg15 from "./BohemianCafe3.jpg";
+import cafeImg16 from "./BohemianCafe4.jpg";
 
 import testimonial1 from "./testimonial-1.jpeg";
 import testimonial2 from "./testimonial-2.jpeg";
@@ -190,29 +190,29 @@ export const facilityIcons = {
   "Cash Payments" : assets.cash_payments,
 };
 
-// // For Room Details Page
-// export const roomCommonData = [
-//   {
-//     icon: assets.homeIcon,
-//     title: "Clean & Safe Stay",
-//     description: "A well-maintained and hygienic space just for you.",
-//   },
-//   {
-//     icon: assets.badgeIcon,
-//     title: "Enhanced Cleaning",
-//     description: "This host follows Staybnb's strict cleaning standards.",
-//   },
-//   {
-//     icon: assets.locationFilledIcon,
-//     title: "Excellent Location",
-//     description: "90% of guests rated the location 5 stars.",
-//   },
-//   {
-//     icon: assets.heartIcon,
-//     title: "Smooth Check-In",
-//     description: "100% of guests gave check-in a 5-star rating.",
-//   },
-// ];
+// For cafe Details Page
+export const cafeCommonData = [
+  {
+    icon: assets.homeIcon,
+    title: "Clean & Safe",
+    description: "A well-maintained and hygienic space just for you.",
+  },
+  {
+    icon: assets.badgeIcon,
+    title: "Enhanced Cleaning",
+    description: "This host follows strict cleaning standards.",
+  },
+  {
+    icon: assets.locationFilledIcon,
+    title: "Excellent Location",
+    description: "90% of guests rated the location 5 stars.",
+  },
+  {
+    icon: assets.heartIcon,
+    title: "Smooth Booking",
+    description: "100% of guests gave booking a table a 5-star rating.",
+  },
+];
 
 // User Dummy Data
 export const userDummyData = {
@@ -248,7 +248,7 @@ export const cafesDD = [
   {
     "_id": "67f7647c197ac559e4089b96",
     "Cafe": cafeAtLocationDD,  // "hotel" : hotelDummyData
-    "cafeTheme": "Nature",
+    "cafeTheme": "Nature Theme",
     "costPerPerson": 199,
     "amenities": [
       "Free Wi-Fi",
@@ -264,7 +264,7 @@ export const cafesDD = [
   {
     "_id": "67f7647c197ac559e4089b97",
     "Cafe": cafeAtLocationDD,
-    "cafeTheme": "Modern",
+    "cafeTheme": "Modern Theme",
     "costPerPerson": 249,
     "amenities": [
       "Free Wi-Fi",
@@ -282,7 +282,7 @@ export const cafesDD = [
   {
   "_id": "67f7647c197ac559e4089b98",
   "Cafe": cafeAtLocationDD,
-  "cafeTheme": "Vintage",
+  "cafeTheme": "Vintage Theme",
   "costPerPerson": 179,
   "amenities": [
     "Outdoor Seating",
@@ -298,7 +298,7 @@ export const cafesDD = [
  {
   "_id": "67f7647c197ac559e4089b99",
   "Cafe": cafeAtLocationDD,
-  "cafeTheme": "Bohemian",
+  "cafeTheme": "Bohemian Theme",
   "costPerPerson": 299,
   "amenities": [
     "Indoor Seating",
@@ -322,10 +322,10 @@ export const userBookingsDummyData = [
   {
     _id: "67f76839994a731e97d3b8ce",
     user: userDummyData,
-    cafee: cafesDD[1],
+    cafeName: cafesDD[1],
     cafeLocation: cafeAtLocationDD,
-    checkInDate: "2025-04-30T00:00:00.000Z",
-    checkOutDate: "2025-05-01T00:00:00.000Z",
+    BookOnDate: "2025-04-30T00:00:00.000Z",
+    BookForDate: "2025-05-01T00:00:00.000Z",
     totalPrice: 299,
     guests: 1,
     status: "pending",
@@ -338,10 +338,10 @@ export const userBookingsDummyData = [
   {
     _id: "67f76829994a731e97d3b8c3",
     user: userDummyData,
-    cafee : cafesDD[2],
+    cafeName : cafesDD[2],
     cafeLocation: cafeAtLocationDD,
-    checkInDate: "2025-04-27T00:00:00.000Z",
-    checkOutDate: "2025-04-28T00:00:00.000Z",
+    BookOnDate: "2025-04-27T00:00:00.000Z",
+    BookForDate: "2025-04-28T00:00:00.000Z",
     totalPrice: 399,
     guests: 1,
     status: "pending",
@@ -354,10 +354,10 @@ export const userBookingsDummyData = [
   {
     _id: "67f76810994a731e97d3b8b4",
     user: userDummyData,
-    cafee: cafesDD[3],
+    cafeName: cafesDD[3],
     cafeLocation: cafeAtLocationDD,
-    checkInDate: "2025-04-11T00:00:00.000Z",
-    checkOutDate: "2025-04-12T00:00:00.000Z",
+    BookOnDate: "2025-04-11T00:00:00.000Z",
+    BookForDate: "2025-04-11T00:00:00.000Z",
     totalPrice: 199,
     guests: 1,
     status: "pending",
