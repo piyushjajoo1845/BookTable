@@ -12,7 +12,7 @@ const Footer = () => {
                     </p>
 
                     <div className='flex items-center gap-2 mt-3'>
-                        <a href="linkdin-footer-icon">
+                        <a href="https://www.linkedin.com/in/piyush-jajoo-40a7a02a3/">
                             <img src={assets.linkendinIcon} alt="" />
                         </a>
                         <a href="instagram-footer-icon">
@@ -21,7 +21,7 @@ const Footer = () => {
                         <a href="twitter-footer-icon">
                             <img src={assets.twitterIcon} alt="" />
                         </a>
-                        <a href="github-footer-icon">
+                        <a href="https://github.com/piyushjajoo1845">
                             <img src={assets.githubIcon} alt="" />
                         </a>
                     </div>

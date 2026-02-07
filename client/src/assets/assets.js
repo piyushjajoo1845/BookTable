@@ -372,23 +372,23 @@ export const userBookingsDummyData = [
 export const testimonialCardData=[
   {
     "image" : testimonial1,
-    "name" : "Piyush Jajoo",
-    "handle" : "@Piyush",
+    "name" : "Alex Bing",
+    "handle" : "@Alex",
   },
   {
     "image" : testimonial1,
-    "name" : "Aditya Jajoo",
-    "handle" : "@Aditya",
+    "name" : "Alok Kumar",
+    "handle" : "@Alok",
   },
   {
     "image" : testimonial2,
-    "name" : "Dimple Jajoo",
-    "handle" : "@dimple",
+    "name" : "Shreya Sharma",
+    "handle" : "@Shreya",
   },
   {
     "image" : testimonial2,
-    "name" : "Suman Jajoo",
-    "handle" : "@Suman",
+    "name" : "Aditi Pandey",
+    "handle" : "@Aditi",
   },
 ];
 
