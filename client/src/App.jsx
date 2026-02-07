@@ -1,14 +1,15 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer';
 
 import {Route, Routes, useLocation} from 'react-router-dom'
 import Home from './pages/Home';
 import AllCafes from './pages/AllCafes';
 import SelectedCafedetail from './pages/SelectedCafedetail';
-import Footer from './components/footer';
 import MyBookings from './pages/MyBookings ';
 import CafeRegistration from './components/CafeRegistration';
 import Layout from './pages/CafeOwner/Layout';
+
 
 const App = () => {
 

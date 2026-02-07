@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { assets, cafesDD, facilityIcons } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 import StarRating from '../components/StarRating'
-import Footer from '../components/footer'
+
 
 const CheckBox = ({label , selected = false , onChange = () =>{}})=>{
     return (
